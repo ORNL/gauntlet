@@ -1,0 +1,5 @@
+### dependencies for gauntlet.py
+geopandas>=0.9
+pandas
+scipy
+tqdm
