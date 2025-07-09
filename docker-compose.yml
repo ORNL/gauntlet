@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  gauntlet:
+    build: .   
+    volumes:    
+      - ./src:/src
+      - /path_to_data:/mnt/output    
+    command: tail -f /dev/null 
+  
