@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Geographic Augmentation of Extracted Building Features
+  Tool (Gauntlet)
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Taylor
+    family-names: Hauser
+    email: hausertr@ornl.gov
+    affiliation: Oak Ridge National Laboratory
+    orcid: 'https://orcid.org/0000-0002-5088-5236'
+identifiers:
+  - type: doi
+    value: 10.11578/dc.20250709.1
+    description: >-
+      Gauntlet (Geographic Augmentation of Extracted
+      Building Features Tool) generates 65 measures of a
+      building’s morphology. These morphology features can
+      be used for various classification tasks and modeling
+      the built environment.
+  - type: url
+    value: 'https://www.osti.gov/doecode/biblio/157761'
+    description: OSTI DOE CODE Project Page
+repository-code: 'https://github.com/ORNL/gauntlet'
+abstract: >-
+  The purpose of Gauntlet is to generate 65 measurements
+  from geospatial polygon data that describes the morphology
+  of the polygons.
+
+
+  Gauntlet is a single script (.py) in the /src folder. Only
+  a few lines of code will need be modified, lines 204 -
+  214. The data is required to have an unique id field and a
+  polygon geometry field stored in a common geospatial data
+  format (.shp, .gpkg, .geojson, .gdb/feature_class).
+keywords:
+  - geospatial
+  - python
+  - building-intelligence
+license: MIT
+version: '2'
+date-released: '2025-07-09'
